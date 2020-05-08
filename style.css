@@ -1,0 +1,430 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header1{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 20%;
+}
+.header1 img{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+.para{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+.table{
+    text-align: center;
+    margin: 10px auto;
+    border-color: forestgreen;
+}
+.table1{
+    padding: 5px;
+    position: absolute;
+    left: 325px;
+    background-color: white;
+}
+.table1 a{
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.table2{
+    padding: 5px;
+    position: absolute;
+    left: 435px;
+    background-color: white;
+}
+.table2 a{
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.table3{
+    padding: 5px;
+    position: absolute;
+    justify-content: right;
+    background-color: white;
+    left: 560px;
+}
+.table3 a{
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.nav{
+    width: 100%;
+    height: 20%;
+    background-color: rgba(238, 237, 237, 0.993);  
+}
+/* @media only screen and(min-width:600px){
+    nav ul{
+        display: none;
+    }
+} */
+.nav img{
+    margin-left: 120px;
+    width: 20%;
+    height: 10%;
+    padding-top: 20px;
+}
+.nav1 ul{
+    float: left;
+    padding-top: 15px;
+    padding-left: 104px;    
+}
+.nav1 ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    padding: 7px 15px 5px 15px;
+}
+.nav1 ul li a:hover{
+    color:white ;
+    background-color: rgb(61, 119, 233);
+    padding:8px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav1 ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+/*.about{
+    position: relative;
+}
+.about ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: none;
+    list-style: none;
+}
+.about ol li{
+    float: none;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}*/
+.nav1.about:hover{
+    display: block;
+}
+.intro{
+    margin-left: 65px;
+}
+.chair{
+    margin-left: 47px;
+}
+.Annual{
+    margin-left: 38px;
+}
+.main-contant{
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.main-contant img{
+    width: 965px;
+    height: 400px;
+    padding: 10px 0px 10px 0px;
+}
+.contant{
+    color: rgb(61, 119, 233);
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.7em;
+}
+.contant1{
+    display: inline;
+    color: forestgreen;
+    font-size: 1.7em;
+    text-align: center;
+    padding-top: 30px;
+}
+.paragraph{
+    text-align: justify;
+    font-size: 1em;
+    width: 80%;
+    margin-left: 10%;
+    color: gray;
+}
+.introduction{
+    background-color: ghostwhite;
+}
+.doing h1{
+    font-size: 1.3em;
+}
+.doing3 h1{
+    text-align: center;
+    color: forestgreen;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.doing3 p{
+    color:rgb(61, 119, 233);
+    display: inline;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.doing3 img{
+    margin-left: 410px;
+    width: 100px;
+    height: 70px;    
+}
+.doing{
+    background-color: ghostwhite;
+    margin-top: 30px;
+}
+.doing img{
+    margin: 0px auto;
+    width: 100px;
+    height: 70px; 
+}
+.doing p{
+    color:rgb(61, 119, 233);
+    display: inline;
+    font-family: cursive;
+    font-weight: 550;
+    font-size: 1.4em;
+    background-color: ghostwhite;
+}
+.doing h1{
+    text-align: center;
+    color: forestgreen;
+    background-color:rgb(230, 230, 230);
+    font-family: Cambria;
+    font-weight: 600;
+    font-size: 1.5em;
+    background-color: ghostwhite;
+}
+.horizontal-line{
+    border-color: green;
+    width: 80px;
+    margin-left: 355px;
+    margin-bottom: 20px;
+    border-width: 3px;
+}
+.horizontal-line1{
+    width: 80px;
+    margin-left: 490px;
+    border-color: green;
+    margin-top: -22px;
+    border-width: 3px;
+}
+.horizontal-line3{
+    border-color: green;
+    width: 80px;
+    margin-left: -140px;
+    border-width: 3px;
+}
+.horizontal-line4{
+    border-color: green;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: -16px;
+    border-width: 3px;
+}
+.horizontal-line5{
+    border-color: rgb(61, 119, 233);
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: ghostwhite;
+}
+.services img{
+    width: 70px;
+    height: 70px;
+}
+.one,.two,.three,.four,.five,.six {
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;   
+}
+.one{
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+    margin: 20px 10px 10px 79px;
+}
+.two{
+    background-color: white;
+    padding: 20px 95px 20px 110px;
+    margin: 20px 80px 10px 10px;
+}
+.three{
+    background-color: white;
+    padding: 20px 93px 20px 92px;
+    margin: 10px 10px 10px 80px;
+}
+.four{
+    background-color: white;
+    padding: 20px 60px 20px 58px;
+    margin: 10px 80px 10px 10px;
+}
+.five{
+    background-color: white;
+    padding: 20px 85px 20px 88px;
+    margin: 10px 10px 10px 80px;
+}
+.six{
+    background-color: white;
+    padding: 20px 85px 20px 85px;
+    margin: 10px 80px 10px 10px;
+}
+.end{
+    background-color: rgb(61, 119, 233);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    text-align: center;
+}
+.end1{
+    margin: 30px 130px 50px 130px;
+    color: white;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.end1 img{
+    width: 80px;
+    height: 50px;     
+}
+.end2{
+    margin: 50px 130px 50px 130px;
+    color: white;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.end2 img{
+    width: 80px;
+    height: 50px;     
+}
+.end3{
+    margin: 50px 130px 50px 130px;
+    color: white;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.end3 img{
+    width: 80px;
+    height: 50px;     
+}
+.end4{
+    margin: 50px 130px 50px 130px;
+    color: white;
+    font-size: 1.5em;
+    font-family: cursive;
+}
+.end4 img{
+    width: 80px;
+    height: 50px;     
+}
+ .last{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color:rgb(230, 230, 230);
+    margin-top: 40px;
+    margin-bottom: 40px;
+} 
+.last1{
+    border: 1.3px solid black;
+    padding: 20px 132px 10px 135px;
+    margin: 10px -50px 20px 30px;
+    color: rgb(61, 119, 233);
+    background-color: ghostwhite;
+}
+.last2{
+    border: 1.3px solid black;
+    padding: 20px 110px 10px 110px;
+    margin: 5px 50px 20px 30px;
+    color: rgb(61, 119, 233);
+    background-color: ghostwhite;
+}
+.last3{
+    border: 1.3px solid black;
+    padding: 20px 130px 10px 130px;
+    margin: 5px -50px 20px 30px;
+    color: rgb(61, 119, 233);
+    background-color: ghostwhite;
+}
+.last4{
+    border: 1.3px solid black; 
+    padding: 20px 130px 10px 127px;
+    margin: 5px 50px 20px 30px;
+    color: rgb(61, 119, 233);
+    background-color: ghostwhite;
+}
+.last p{
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 80px;
+    margin-right: 600px;
+    color: rgb(61, 119, 233);
+}
+.last5{
+    border-color: forestgreen;
+    width: 10%;
+    margin-left: -700px;
+}
+.last img{
+    width: 70px;
+    height: 70px;
+}
+.gallery img{
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: ghostwhite;
+    padding: 80px;
+    margin-top: 30px;
+    width: 100%;
+}
+.footer strong{
+    margin-left: 480px;
+    color: ghostwhite;
+}
+.footer1{
+    width: 35%;
+    margin-left: 460px;
+    border-color: ghostwhite;
+}
+.footer img{
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    margin-left: 460px; 
+}
+.top img{
+    position: fixed;
+    right:30px;
+    bottom: 30px;
+    width: 80px;
+}
+.copyright{
+    background-color: cornflowerblue;
+    color: ghostwhite;
+    padding-left: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
